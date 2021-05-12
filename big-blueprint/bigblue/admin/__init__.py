@@ -1,0 +1,7 @@
+from flask import Blueprint
+
+
+admin = Blueprint('admin', __name__, template_folder='templates')
+
+from .views import fyz
+from .views import mht
